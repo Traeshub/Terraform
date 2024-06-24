@@ -1,8 +1,8 @@
 # Configuring the Azure provider
 
 provider "azurerm" {
-  subscription_id = "222b8490-d1d7-4ed8-9207-a74b220f3f9c"
-  tenant_id = "61eaf031-7940-49a8-b751-674a401499f9"
+  subscription_id = "sub_id"
+  tenant_id = "tenant_id"
 
   features {
     resource_group {
